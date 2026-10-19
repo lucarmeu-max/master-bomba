@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0b0c" />
+  <meta name="description" content="Master Bomba — hamburgueria e lanchonete no Recanto das Emas, com pedidos rápidos pelo WhatsApp." />
+  <meta name="keywords" content="Master Bomba, hambúrguer, lanchonete, Recanto das Emas, Brasília, lanche" />
+  <meta property="og:title" content="Master Bomba" />
+  <meta property="og:description" content="Fome de verdade pede um lanche de respeito." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1200&q=88" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <title>Master Bomba</title>
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-loader" id="appLoader" aria-hidden="true">
+    <div class="loader-logo">MASTER <span>BOMBA</span></div>
+    <div class="loader-bar"><i></i></div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="shell header-inner">
+      <a class="brand" href="#inicio" aria-label="Master Bomba - início">
+        <span class="brand-mark">MB</span>
+        <span class="brand-copy"><b>MASTER BOMBA</b><small>LANCHONETE • RECANTO DAS EMAS</small></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#combos">Combos</a>
+        <a href="#mais-pedidos">Mais pedidos</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#localizacao">Localização</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button cart-trigger" type="button" aria-label="Abrir carrinho">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 3h2l2.2 10.1a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 7H7M10 20a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm9 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg>
+          <span class="cart-badge" data-cart-count>0</span>
+        </button>
+        <a class="button button-hot header-cta" href="#cardapio">PEDIR AGORA</a>
+        <button class="menu-button" id="menuButton" type="button" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#inicio">Início</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#combos">Combos</a>
+      <a href="#mais-pedidos">Mais pedidos</a>
+      <a href="#avaliacoes">Avaliações</a>
+      <a href="#localizacao">Localização</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-noise"></div>
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="shell hero-grid">
+        <div class="hero-copy reveal is-visible">
+          <div class="eyebrow"><span class="live-dot"></span> Recanto das Emas • Brasília</div>
+          <h1>Fome de verdade pede um <em>lanche de respeito.</em> 🍔</h1>
+          <p>Hambúrgueres caprichados, combinações generosas e muito sabor no Recanto das Emas.</p>
+          <div class="hero-buttons">
+            <a class="button button-hot button-lg" href="#cardapio">PEDIR AGORA</a>
+            <a class="button button-ghost button-lg" href="#cardapio">VER CARDÁPIO</a>
+          </div>
+          <div class="hero-proof">
+            <div class="proof-item"><strong>4,2</strong><span>★★★★☆</span><small>Google</small></div>
+            <div class="proof-item"><strong>278</strong><span>avaliações</span><small>clientes</small></div>
+            <div class="proof-item wide"><strong>No local • Para viagem</strong><small>você escolhe</small></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal is-visible">
+          <div class="hero-badge badge-top">🔥 MAIS PEDIDO</div>
+          <div class="hero-badge badge-bottom">4,2 ★</div>
+          <div class="hero-photo-frame">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1200&q=88" alt="Hambúrguer em destaque" fetchpriority="high" />
+            <div class="photo-shine"></div>
+          </div>
+          <div class="hero-product-card">
+            <span>BOMBA DUPLO TRIO</span>
+            <strong>Caprichado. Generoso. Master Bomba.</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="shell trust-grid">
+        <div><b>⚡</b><span><strong>Pedido rápido</strong><small>Finalize no WhatsApp</small></span></div>
+        <div><b>🥡</b><span><strong>Para viagem</strong><small>Praticidade para levar</small></span></div>
+        <div><b>🍽️</b><span><strong>Refeição no local</strong><small>Ambiente casual</small></span></div>
+        <div><b>⭐</b><span><strong>4,2 no Google</strong><small>278 avaliações</small></span></div>
+      </div>
+    </section>
+
+    <section class="menu-section" id="cardapio">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">CARDÁPIO INTERATIVO</span>
+            <h2>Escolha. Adicione. <em>Mate a fome.</em></h2>
+          </div>
+          <div class="menu-search-wrap">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+            <input id="productSearch" type="search" placeholder="Buscar no cardápio" aria-label="Buscar produtos" />
+          </div>
+        </div>
+
+        <div class="category-scroller" id="categoryScroller" aria-label="Categorias do cardápio"></div>
+
+        <div class="products-grid" id="productsGrid" aria-live="polite">
+          <div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo-banner reveal" id="combos">
+      <div class="shell promo-inner">
+        <div class="promo-copy">
+          <span>🔥 MASTER BOMBA</span>
+          <h2>A fome bateu? A Master Bomba resolve.</h2>
+          <p>Hambúrgueres caprichados, porções e sabor de verdade.</p>
+          <a class="button button-light button-lg" href="#cardapio">PEDIR AGORA</a>
+        </div>
+        <div class="promo-image">
+          <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=1200&q=88" alt="Hambúrguer em destaque" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section class="popular-section" id="mais-pedidos">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">OS GIGANTES DA CASA 🔥</span>
+            <h2>Mais pedidos. <em>Mais Master Bomba.</em></h2>
+          </div>
+          <p class="section-note">Os favoritos ganham espaço maior porque fome grande merece destaque grande.</p>
+        </div>
+        <div class="popular-grid" id="popularGrid"></div>
+      </div>
+    </section>
+
+    <section class="reviews-section" id="avaliacoes">
+      <div class="shell reviews-layout">
+        <div class="reviews-score reveal">
+          <span class="section-kicker">QUEM PROVA, RECOMENDA ⭐</span>
+          <h2>4,2 <small>/ 5</small></h2>
+          <div class="big-stars">★★★★☆</div>
+          <p><strong>278 avaliações</strong> no Google</p>
+          <div class="review-dots" id="reviewDots" aria-label="Navegação das avaliações"></div>
+        </div>
+        <div class="review-stage reveal" id="reviewStage"></div>
+      </div>
+    </section>
+
+    <section class="location-section" id="localizacao">
+      <div class="shell location-grid">
+        <div class="location-copy reveal">
+          <span class="section-kicker">ESTAMOS NO RECANTO DAS EMAS 📍</span>
+          <h2>Chegue com fome. <em>Saia satisfeito.</em></h2>
+          <p>Q 103 - Recanto das Emas, Brasília - DF, 72600-300</p>
+          <div class="location-actions">
+            <a class="button button-hot" href="https://www.google.com/maps/search/?api=1&query=Q%20103%20Recanto%20das%20Emas%20Bras%C3%ADlia%20DF%2072600-300" target="_blank" rel="noopener">ABRIR NO GOOGLE MAPS</a>
+            <a class="button button-ghost-dark" href="https://www.google.com/maps/dir/?api=1&destination=Q%20103%20Recanto%20das%20Emas%20Bras%C3%ADlia%20DF%2072600-300" target="_blank" rel="noopener">COMO CHEGAR</a>
+          </div>
+
+          <div class="hours-card" id="horario">
+            <div class="hours-icon">🕔</div>
+            <div>
+              <strong>Horário de atendimento</strong>
+              <span class="hours-status neutral">ABRE ÀS 12:00</span>
+              <small>Horário de fechamento ainda não informado.</small>
+            </div>
+          </div>
+        </div>
+        <div class="map-frame reveal">
+          <iframe title="Mapa da Master Bomba" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Q%20103%20Recanto%20das%20Emas%20Brasilia%20DF%2072600-300&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-band" id="contato">
+      <div class="shell contact-band-inner reveal">
+        <div>
+          <span>FALA COM A MASTER BOMBA</span>
+          <h2>Seu próximo pedido está a um toque de distância.</h2>
+        </div>
+        <a class="button button-light button-lg" href="https://wa.me/5561996131618" target="_blank" rel="noopener">WHATSAPP • (61) 99613-1618</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#inicio">
+          <span class="brand-mark">MB</span>
+          <span class="brand-copy"><b>MASTER BOMBA</b><small>LANCHONETE • RECANTO DAS EMAS</small></span>
+        </a>
+        <p>Fome de verdade pede um lanche de respeito.</p>
+      </div>
+      <div>
+        <strong>Atalhos</strong>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#mais-pedidos">Mais pedidos</a>
+        <a href="#localizacao">Localização</a>
+      </div>
+      <div>
+        <strong>Contato</strong>
+        <a href="https://wa.me/5561996131618" target="_blank" rel="noopener">(61) 99613-1618</a>
+        <span>Recanto das Emas - Brasília/DF</span>
+      </div>
+    </div>
+    <div class="shell footer-bottom">© MASTER BOMBA. Todos os direitos reservados.</div>
+  </footer>
+
+  <button class="whatsapp-float" type="button" id="whatsappFloat" aria-label="Pedir pelo WhatsApp">
+    <span class="wa-icon">✆</span><strong>Peça pelo WhatsApp</strong>
+  </button>
+
+  <nav class="mobile-bottom-nav" aria-label="Navegação móvel">
+    <a href="#inicio"><span>⌂</span><small>Início</small></a>
+    <a href="#cardapio"><span>🍔</span><small>Cardápio</small></a>
+    <a href="#combos"><span>🔥</span><small>Combos</small></a>
+    <button class="cart-trigger" type="button"><span class="mobile-cart-icon">🛒<b data-cart-count>0</b></span><small>Carrinho</small></button>
+    <a href="#contato"><span>👤</span><small>Contato</small></a>
+  </nav>
+
+  <div class="modal-backdrop" id="productModal" aria-hidden="true">
+    <div class="product-modal" role="dialog" aria-modal="true" aria-labelledby="modalProductName">
+      <button class="modal-close" type="button" data-close-modal aria-label="Fechar">×</button>
+      <div class="modal-product-image-wrap"><img id="modalProductImage" alt="" /></div>
+      <div class="modal-product-content">
+        <div class="modal-badge" id="modalProductBadge"></div>
+        <h3 id="modalProductName"></h3>
+        <p id="modalProductDescription"></p>
+        <strong class="modal-price" id="modalProductPrice"></strong>
+        <label for="modalObservation">Alguma observação?</label>
+        <textarea id="modalObservation" placeholder="Ex.: Sem cebola, por favor."></textarea>
+        <div class="modal-actions">
+          <div class="stepper">
+            <button type="button" data-modal-step="-1">−</button><span id="modalQuantity">1</span><button type="button" data-modal-step="1">+</button>
+          </div>
+          <button class="button button-hot modal-add" type="button" id="modalAddButton">ADICIONAR AO CARRINHO</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="drawer-backdrop" id="cartBackdrop" aria-hidden="true"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true" aria-label="Carrinho">
+    <div class="cart-head">
+      <div><span>SEU PEDIDO</span><h3>Carrinho</h3></div>
+      <button type="button" id="closeCart" aria-label="Fechar carrinho">×</button>
+    </div>
+    <div class="cart-content" id="cartContent"></div>
+    <div class="cart-summary" id="cartSummary"></div>
+    <div class="cart-footer">
+      <button class="button button-hot button-full" id="checkoutButton" type="button">FINALIZAR PEDIDO</button>
+    </div>
+  </aside>
+
+  <div class="modal-backdrop" id="checkoutModal" aria-hidden="true">
+    <div class="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+      <button class="modal-close" type="button" data-close-checkout aria-label="Fechar">×</button>
+      <div class="checkout-head">
+        <span>ÚLTIMO PASSO</span>
+        <h3 id="checkoutTitle">Finalizar pedido</h3>
+        <p>Preencha os dados abaixo. Ao finalizar, o pedido será montado e aberto no WhatsApp da Master Bomba.</p>
+      </div>
+      <form id="checkoutForm">
+        <div class="form-grid two">
+          <label>Nome<input type="text" name="name" required placeholder="Seu nome" /></label>
+          <label>Telefone<input type="tel" name="phone" required placeholder="(61) 99999-9999" /></label>
+        </div>
+
+        <fieldset>
+          <legend>Forma de recebimento</legend>
+          <div class="choice-grid">
+            <label class="choice-card"><input type="radio" name="fulfillment" value="delivery" checked /><span><b>🛵 Entrega</b><small>Receber no endereço</small></span></label>
+            <label class="choice-card"><input type="radio" name="fulfillment" value="pickup" /><span><b>🥡 Retirada</b><small>Buscar no local</small></span></label>
+          </div>
+        </fieldset>
+
+        <div id="deliveryFields">
+          <div class="form-grid two">
+            <label>Endereço<input type="text" name="address" placeholder="Rua / Quadra" /></label>
+            <label>Número<input type="text" name="number" placeholder="Nº" /></label>
+          </div>
+          <div class="form-grid two">
+            <label>Complemento<input type="text" name="complement" placeholder="Casa, bloco..." /></label>
+            <label>Bairro<input type="text" name="district" placeholder="Seu bairro" /></label>
+          </div>
+          <label>Referência<input type="text" name="reference" placeholder="Próximo a..." /></label>
+        </div>
+
+        <fieldset>
+          <legend>Forma de pagamento</legend>
+          <div class="choice-grid payment-grid">
+            <label class="choice-card"><input type="radio" name="payment" value="PIX" checked /><span><b>PIX</b></span></label>
+            <label class="choice-card"><input type="radio" name="payment" value="Dinheiro" /><span><b>Dinheiro</b></span></label>
+            <label class="choice-card"><input type="radio" name="payment" value="Cartão" /><span><b>Cartão</b></span></label>
+          </div>
+        </fieldset>
+
+        <div id="changeField" class="hidden"><label>Precisa de troco?<input type="text" name="change" placeholder="Ex.: Troco para R$ 100" /></label></div>
+
+        <label>Observação geral<textarea name="generalObservation" placeholder="Alguma informação para o pedido?"></textarea></label>
+        <div class="checkout-total" id="checkoutTotal"></div>
+        <button class="button button-hot button-full button-lg" type="submit">ENVIAR PEDIDO NO WHATSAPP</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">Produto adicionado ao carrinho</div>
+
+  <script src="app.js"></script>
+</body>
+</html>
